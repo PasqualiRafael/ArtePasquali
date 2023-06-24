@@ -1,0 +1,19 @@
+.btn {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+
+    width: 150px;
+    height: auto;
+
+    padding: 10px;
+    border-radius: 6px;
+
+    color: $--clr-white;
+    background-color: $--clr-tertiary;
+
+    &:hover {
+        background-color: $--clr-btn-hover;
+    }
+}

@@ -1,0 +1,493 @@
+/*
+This file is used to contain all abstract imports.
+Files inside this folder can contain global styles used in the project.
+*/
+@import "https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Great+Vibes&family=Open+Sans:ital@0;1&display=swap";
+/*
+This file is used to contain all base imports.
+Files inside this folder can contain global styles used in the project.
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body header {
+  font-family: --font-primary;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/*
+This file is used to contain all components imports.
+Files inside this folder can contain global styles used in the project.
+*/
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 1040px;
+  height: 60px;
+  background-color: #211440;
+}
+.nav-list .navegation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 144px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.nav-list .navegation:hover, .nav-list .navegation:active {
+  background-color: #602ed2;
+}
+.nav-list li.dropdown {
+  display: inline-block;
+}
+.nav-list li.dropdown:hover > .dropdown-content {
+  display: block;
+}
+.nav-list li.dropdown .service:hover {
+  background-color: #602ed2;
+}
+.nav-list li.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  height: auto;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.nav-list li.dropdown .dropdown-content a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 10px 0;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #211440;
+}
+.nav-list li.dropdown .dropdown-content a:hover {
+  background-color: #602ed2;
+  color: #ffffff;
+}
+
+.btn {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  height: auto;
+  padding: 10px;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: #602ed2;
+}
+.btn:hover {
+  background-color: rgba(147, 60, 216, 0.89);
+}
+
+/*
+This file is used to contain all layouts imports.
+Files inside this folder can contain global styles used in the project.
+*/
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  width: 1020px;
+  height: auto;
+  background-color: #e5e6e9;
+}
+.top .welcome {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #1d1d1d;
+}
+.top .top-tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  width: auto;
+}
+.top .top-tools .language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 8px;
+  gap: 4px;
+  background-color: #c9c5c5;
+  border: 1px solid #a9a9a9;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 26px;
+}
+.top .top-tools .instagram,
+.top .top-tools .facebook {
+  display: flex;
+  justify-content: center;
+}
+.top .top-tools .orcamento {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 12px;
+  text-align: center;
+  text-decoration: none;
+  background: #602ed2;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.mid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1040px;
+  height: auto;
+  padding: 28px 0;
+}
+.mid .left-mid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mid .left-mid .logo-text {
+  width: auto;
+  height: auto;
+  padding-top: 20px;
+  font-family: "Great Vibes", cursive;
+  font-size: 48px;
+  color: #1d1d1d;
+}
+.mid .right-mid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.mid .right-mid .container-contact {
+  display: flex;
+  align-items: center;
+}
+.mid .right-mid .container-contact .text-tel,
+.mid .right-mid .container-contact .text-time {
+  font-weight: 700;
+  line-height: 20px;
+  color: #092547;
+}
+.mid .right-mid .container-contact .text-email,
+.mid .right-mid .container-contact .text-week {
+  line-height: 20px;
+  text-transform: lowercase;
+  color: #092547;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+  margin: 0 auto;
+  background-color: gray;
+}
+.banner .container-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin: 0 auto;
+  min-width: 1020px;
+  height: 500px;
+  padding-left: 20px;
+  background-color: lightgray;
+}
+.banner .container-banner .text-banner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 32px;
+  line-height: 40px;
+  color: #092547;
+}
+
+.publi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 140px;
+  margin: 0 auto;
+  background-color: #211440;
+}
+.publi .container-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 135px;
+}
+.publi .container-banner .text-publi {
+  width: 520px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: auto;
+  height: 600px;
+  background-color: gray;
+}
+.about .container-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1040px;
+  height: 600px;
+  background-color: lightgray;
+}
+.about .container-about .title-about {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10%;
+  font-family: "Great Vibes", cursive;
+  font-size: 48px;
+  line-height: 60px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.about .container-about .border-bottom {
+  position: relative;
+  height: 0;
+  width: 120px;
+  top: 1px;
+  border-radius: 26px;
+  border-bottom: 8px solid #602ed2;
+}
+.about .container-about .text-about {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-justify: inter-word;
+  padding: 40px 200px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.default-bkg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: auto;
+  height: 600px;
+  background-color: gray;
+}
+.default-bkg .container-default {
+  width: 1040px;
+  height: 600px;
+  background-color: lightgray;
+}
+
+.container-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-service .title-service {
+  font-family: "Arvo", serif;
+  font-size: 40px;
+  line-height: 49px;
+  padding: 10px;
+  text-align: center;
+  color: #092547;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.container-service .border-bottom {
+  position: relative;
+  height: 0;
+  width: 120px;
+  top: 1px;
+  border-radius: 26px;
+  border-bottom: 8px solid #602ed2;
+}/*# sourceMappingURL=style.css.map */
