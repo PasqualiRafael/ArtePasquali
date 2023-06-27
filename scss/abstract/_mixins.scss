@@ -4,7 +4,7 @@
     background-color: lightgray;
 }
 
-@mixin section-default() {
+@mixin section-default($color-container, $h) {
     .default-bkg {
         display: flex;
         justify-content: center;
@@ -12,15 +12,15 @@
         margin: 0 auto;
 
         width: auto;
-        height: 600px;
+        height: $h;
 
         background-color: $--clr-test2-bg;
 
         .container-default {
             width: 1040px;
-            height: 600px;
+            height: $h;
 
-            background-color: $--clr-test1-bg;
+            background-color: $color-container;
         }
     }
 }

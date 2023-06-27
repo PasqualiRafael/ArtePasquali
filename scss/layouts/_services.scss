@@ -1,0 +1,128 @@
+@include section-default(#e7ebee, 880px);
+
+.container-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title-service {
+        font-family: $--font-primary;
+        font-size: 40px;
+        line-height: 49px;
+        padding: 10px;
+
+        text-align: center;
+        color: $--clr-font;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .border-bottom {
+        position: relative;
+        height: 0;
+        width: 120px;
+
+        top: 1px;
+
+        border-radius: 26px;
+        border-bottom: 8px solid $--clr-tertiary;
+    }
+
+    .service-tabs {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 924px;
+        height: 455px;
+        // background-color: black;
+        margin-top: 30px;
+
+        .logo-mk-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            width: 100%;
+            height: 80%;
+            background-color: $--clr-white;
+            border-radius: 26px;
+
+            .logo-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 50px;
+
+                width: 300px;
+                height: 100%;
+
+                border-radius: 26px;
+
+                // background-color: $--clr-test1-bg;
+
+                .logo-service {
+                    margin: 0 20px 0 20px;
+
+                    .title-logo-card {
+                        font-size: 28px;
+                        color: $--clr-font;
+                        padding: 10px;
+                        margin: 20px 0 40px 20px;
+                    }
+
+                    .title-mk-logo-card {
+                        margin: 20px 0 40px 0;
+                    }
+
+                    .list-service {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 4px;
+                        width: auto;
+                        font-size: 1rem;
+                        color: $--clr-font-tabs;
+
+                        .service-items {
+                            display: flex;
+                            align-items: center;
+
+                            .text-inside-card {
+                                padding-left: 4px;
+                            }
+                        }
+                    }
+                }
+
+                .btn-container {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+            }
+
+            .site-container {
+                position: relative;
+                width: 300px;
+                height: 364px;
+                top: -50px;
+
+                box-shadow: 0px 42px 34px 0px rgba(82, 67, 194, 0.3);
+
+                background-color: $--clr-service-accent;
+                background-image: url("../img/tab-site-bg.png");
+                background-repeat: no-repeat;
+                background-position: right;
+
+                #site-text-container {
+                    width: 250px;
+                }
+            }
+
+            #text-site-tab {
+                color: $--clr-white;
+            }
+        }
+    }
+}

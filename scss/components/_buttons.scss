@@ -17,3 +17,24 @@
         background-color: $--clr-btn-hover;
     }
 }
+
+.btn-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 207px;
+    height: 45px;
+
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: $--clr-white;
+
+    border-radius: 24px;
+    background-color: $--clr-alternative-2;
+}
+
+.btn-quoto {
+    background-color: $--clr-secondary;
+}
