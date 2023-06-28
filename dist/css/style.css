@@ -148,7 +148,8 @@ body header {
   font-style: normal;
   font-size: 16px;
   line-height: 22px;
-  width: 1440px;
+  width: auto;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 
@@ -164,6 +165,12 @@ body header {
 This file is used to contain all components imports.
 Files inside this folder can contain global styles used in the project.
 */
+.nav-container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
 .nav-list {
   display: flex;
   flex-direction: row;
@@ -293,19 +300,67 @@ Files inside this folder can contain global styles used in the project.
     transform: translateX(-50%);
   }
 }
+.container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: auto;
+  height: 340px;
+  background-color: rgba(33, 20, 64, 0.93);
+}
+.container-footer .wrapper-footer {
+  width: 1040px;
+  height: 340px;
+  background-color: #49268b;
+}
+
+.container-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  background-color: #211440;
+}
+.container-copyright .wrapper-copyright small {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.container-copyright .wrapper-copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1040px;
+  height: 50px;
+  background-color: #211440;
+  color: #ffffff;
+}
+.container-copyright .wrapper-copyright .footer-social a {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.container-copyright .wrapper-copyright small {
+  padding-left: 5px;
+  text-align: center;
+}
+
 /*
 This file is used to contain all layouts imports.
 Files inside this folder can contain global styles used in the project.
 */
-header {
+.top {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  height: auto;
+  background-color: #e5e6e9;
 }
 
-.top {
+.wrapper-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -314,7 +369,7 @@ header {
   height: auto;
   background-color: #e5e6e9;
 }
-.top .welcome {
+.wrapper-top .welcome {
   display: flex;
   align-items: center;
   text-align: center;
@@ -324,7 +379,7 @@ header {
   line-height: 25px;
   color: #1d1d1d;
 }
-.top .top-tools {
+.wrapper-top .top-tools {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -332,7 +387,7 @@ header {
   gap: 15px;
   width: auto;
 }
-.top .top-tools .language {
+.wrapper-top .top-tools .language {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -343,12 +398,12 @@ header {
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 26px;
 }
-.top .top-tools .instagram,
-.top .top-tools .facebook {
+.wrapper-top .top-tools .instagram,
+.wrapper-top .top-tools .facebook {
   display: flex;
   justify-content: center;
 }
-.top .top-tools .orcamento {
+.wrapper-top .top-tools .orcamento {
   display: flex;
   align-items: center;
   height: 50px;
@@ -362,6 +417,13 @@ header {
 
 .mid {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.wrapper-mid {
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -369,12 +431,12 @@ header {
   height: auto;
   padding: 28px 0;
 }
-.mid .left-mid {
+.wrapper-mid .left-mid {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.mid .left-mid .logo-text {
+.wrapper-mid .left-mid .logo-text {
   width: auto;
   height: auto;
   padding-top: 20px;
@@ -382,25 +444,25 @@ header {
   font-size: 48px;
   color: #1d1d1d;
 }
-.mid .right-mid {
+.wrapper-mid .right-mid {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   gap: 10px;
 }
-.mid .right-mid .container-contact {
+.wrapper-mid .right-mid .container-contact {
   display: flex;
   align-items: center;
 }
-.mid .right-mid .container-contact .text-tel,
-.mid .right-mid .container-contact .text-time {
+.wrapper-mid .right-mid .container-contact .text-tel,
+.wrapper-mid .right-mid .container-contact .text-time {
   font-weight: 700;
   line-height: 20px;
   color: #092547;
 }
-.mid .right-mid .container-contact .text-email,
-.mid .right-mid .container-contact .text-week {
+.wrapper-mid .right-mid .container-contact .text-email,
+.wrapper-mid .right-mid .container-contact .text-week {
   line-height: 20px;
   text-transform: lowercase;
   color: #092547;
