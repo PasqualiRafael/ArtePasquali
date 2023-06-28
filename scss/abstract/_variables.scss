@@ -18,5 +18,11 @@ $--clr-bg-language: #c9c5c5;
 $--clr-btn-hover: rgba(147, 60, 216, 0.89);
 $--clr-service-accent: #5243c2;
 
+//logo slider
+$--total-brand: 8;
+$--logo-width: 15.5rem;
+$--total-logo-width: calc($--total-brand * $--logo-width * 2);
+
+//test dev
 $--clr-test1-bg: lightgray;
 $--clr-test2-bg: gray;

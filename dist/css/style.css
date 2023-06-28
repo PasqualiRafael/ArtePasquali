@@ -259,6 +259,40 @@ Files inside this folder can contain global styles used in the project.
   background-color: #211440;
 }
 
+.slider {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 14rem;
+  background-color: #fff;
+  box-shadow: 0 0.8rem 1.4rem -0.2rem rgba(0, 0, 0, 0.0666666667);
+  overflow: hidden;
+}
+.slider::before, .slider::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+}
+.slider .brands {
+  display: flex;
+  flex-direction: row;
+  width: 248rem;
+  list-style: none;
+  animation: slideLeft 14s linear infinite;
+}
+.slider .brands .brand-logo {
+  width: 15.5rem;
+  text-align: center;
+  margin-left: 2rem;
+}
+
+@keyframes slideLeft {
+  100% {
+    transform: translateX(-50%);
+  }
+}
 /*
 This file is used to contain all layouts imports.
 Files inside this folder can contain global styles used in the project.
@@ -431,7 +465,7 @@ header {
   margin: 0 auto;
   width: auto;
   height: 600px;
-  background-color: gray;
+  background-color: #ffffff;
 }
 .about .container-about {
   display: flex;
@@ -440,7 +474,7 @@ header {
   align-items: center;
   width: 1040px;
   height: 600px;
-  background-color: lightgray;
+  background-color: #ffffff;
 }
 .about .container-about .title-about {
   display: flex;
@@ -471,19 +505,14 @@ header {
   line-height: 33px;
 }
 
-.default-bkg {
+.service-default {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   width: auto;
   height: 880px;
-  background-color: gray;
-}
-.default-bkg .container-default {
-  width: 1040px;
-  height: 880px;
-  background-color: #e7ebee;
+  background-color: #ffffff;
 }
 
 .container-service {
@@ -491,23 +520,9 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.container-service .title-service {
-  font-family: "Arvo", serif;
-  font-size: 40px;
-  line-height: 49px;
-  padding: 10px;
-  text-align: center;
-  color: #092547;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.container-service .border-bottom {
-  position: relative;
-  height: 0;
-  width: 120px;
-  top: 1px;
-  border-radius: 26px;
-  border-bottom: 8px solid #602ed2;
+  width: 1040px;
+  height: 880px;
+  background-color: #ffffff;
 }
 .container-service .service-tabs {
   display: flex;
@@ -526,6 +541,7 @@ header {
   height: 80%;
   background-color: #ffffff;
   border-radius: 26px;
+  box-shadow: 2px 5px 8px 0px rgba(0, 0, 0, 0.3);
 }
 .container-service .service-tabs .logo-mk-container .logo-container {
   display: flex;
@@ -540,6 +556,7 @@ header {
   margin: 0 20px 0 20px;
 }
 .container-service .service-tabs .logo-mk-container .logo-container .logo-service .title-logo-card {
+  font-family: "Arvo", serif;
   font-size: 28px;
   color: #092547;
   padding: 10px;
@@ -585,4 +602,123 @@ header {
 }
 .container-service .service-tabs .logo-mk-container #text-site-tab {
   color: #ffffff;
+}
+
+.title-service {
+  font-family: "Arvo", serif;
+  font-size: 40px;
+  line-height: 49px;
+  padding: 10px;
+  text-align: center;
+  color: #092547;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.border-bottom {
+  position: relative;
+  height: 0;
+  width: 120px;
+  top: 1px;
+  border-radius: 26px;
+  border-bottom: 8px solid #602ed2;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: auto;
+  height: 1000px;
+  background-color: #ffffff;
+}
+
+.container-plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1040px;
+  height: 1000px;
+  background-color: #ffffff;
+}
+
+.plans-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(14, 50px);
+  row-gap: 1px;
+  -moz-column-gap: 1px;
+       column-gap: 1px;
+  margin-top: 100px;
+  border-radius: 26px;
+  box-shadow: 2px 5px 8px 0px rgba(0, 0, 0, 0.3);
+}
+.container-grid .title-grid {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  font-family: "Arvo", serif;
+  font-size: 20px;
+  color: #092547;
+}
+.container-grid .item-grid > .title-categ {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding-left: 10px;
+  text-align: left;
+  color: #092547;
+}
+
+.container-grid li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.default-bkg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: auto;
+  height: 400px;
+  background-color: #ffffff;
+}
+.default-bkg .container-default {
+  width: 1040px;
+  height: 400px;
+  background-color: rgb(168, 161, 161);
+}
+
+.clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: auto;
+  height: 600px;
+  background-color: #ffffff;
+}
+.clients .container-clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1040px;
+  height: 400px;
+  background-color: #ffffff;
+}
+
+.border-bottom {
+  margin-bottom: 3rem;
 }/*# sourceMappingURL=style.css.map */
