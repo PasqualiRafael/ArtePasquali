@@ -5,16 +5,82 @@
     margin: 0 auto;
 
     width: auto;
-    height: 340px;
+    height: 330px;
 
-    background-color: rgba(33, 20, 64, 0.93);
+    background-color: $--clr-footer;
 
     .wrapper-footer {
-        width: 1040px;
-        height: 340px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
 
-        background-color: #49268b;
+        width: 1040px;
+        height: 330px;
+
+        background-color: $--clr-footer;
+
+        .logo-footer {
+            padding-left: 10px;
+        }
+
+        .faleconosco {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            width: auto;
+            height: 330px;
+
+            gap: 27px;
+
+            color: $--clr-white;
+
+            .footer-info {
+                font-family: $--font-secondary;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+                color: $--clr-white;
+
+                li {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 4px;
+                }
+
+                .text-telemail {
+                    font-family: $--font-secondary;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    font-size: 1rem;
+                    padding-left: 8px;
+
+                    color: $--clr-white;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .google-maps > .map-box {
+            border-radius: 10px;
+        }
     }
+}
+
+.footer-text {
+    font-family: $--font-primary;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 19px;
+    color: $--clr-white;
 }
 
 .container-copyright {

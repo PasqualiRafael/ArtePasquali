@@ -38,3 +38,12 @@
 .btn-quoto {
     background-color: $--clr-secondary;
 }
+
+.popup {
+    position: fixed;
+    width: auto;
+    height: auto;
+    bottom: 40px;
+    right: 25px;
+    z-index: 1000;
+}

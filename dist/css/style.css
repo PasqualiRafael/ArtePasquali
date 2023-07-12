@@ -266,6 +266,15 @@ Files inside this folder can contain global styles used in the project.
   background-color: #211440;
 }
 
+.popup {
+  position: fixed;
+  width: auto;
+  height: auto;
+  bottom: 40px;
+  right: 25px;
+  z-index: 1000;
+}
+
 .slider {
   display: flex;
   align-items: center;
@@ -306,13 +315,67 @@ Files inside this folder can contain global styles used in the project.
   align-items: center;
   margin: 0 auto;
   width: auto;
-  height: 340px;
-  background-color: rgba(33, 20, 64, 0.93);
+  height: 330px;
+  background-color: #31254d;
 }
 .container-footer .wrapper-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   width: 1040px;
-  height: 340px;
-  background-color: #49268b;
+  height: 330px;
+  background-color: #31254d;
+}
+.container-footer .wrapper-footer .logo-footer {
+  padding-left: 10px;
+}
+.container-footer .wrapper-footer .faleconosco {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: auto;
+  height: 330px;
+  gap: 27px;
+  color: #ffffff;
+}
+.container-footer .wrapper-footer .faleconosco .footer-info {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #ffffff;
+}
+.container-footer .wrapper-footer .faleconosco .footer-info li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+}
+.container-footer .wrapper-footer .faleconosco .footer-info .text-telemail {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 1rem;
+  padding-left: 8px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.container-footer .wrapper-footer .google-maps > .map-box {
+  border-radius: 10px;
+}
+
+.footer-text {
+  font-family: "Arvo", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding-top: 19px;
+  color: #ffffff;
 }
 
 .container-copyright {
@@ -470,30 +533,42 @@ Files inside this folder can contain global styles used in the project.
 
 .banner {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  width: auto;
+  align-items: center;
   margin: 0 auto;
+  width: auto;
+  height: 600px;
   background-color: #ffffff;
 }
 .banner .container-banner {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: left;
   margin: 0 auto;
-  min-width: 1020px;
-  height: 500px;
-  padding-left: 20px;
-  background-color: lightgray;
+  min-width: 1040px;
+  height: 600px;
+  background-color: #ffffff;
 }
-.banner .container-banner .text-banner {
+.banner .container-banner .wrapper-text-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.banner .container-banner .wrapper-text-banner .text-banner {
   display: flex;
   align-items: center;
-  margin-bottom: 25px;
+  font-family: "Arvo", serif;
   font-size: 32px;
-  line-height: 40px;
+  font-weight: 400;
+  line-height: normal;
   color: #092547;
+}
+.banner .container-banner .responsive-bkg {
+  display: flex;
+  align-items: center;
 }
 
 .publi {
