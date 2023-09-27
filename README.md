@@ -1,6 +1,6 @@
 # Multilanguage README Choose your language
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.en.md) [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/PasqualiRafael/PasqualiRafael/ArtePasquali/tree/main/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PasqualiRafael/ArtePasquali/blob/main/README.en.md) [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/PasqualiRafael/PasqualiRafael/ArtePasquali/tree/main/README.md)
 
 <h1 align="center">
   💻<br>Portfólio - Pasquali (Em Construção)
