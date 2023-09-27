@@ -35,7 +35,7 @@ $--height-container: 600px;
                 align-items: center;
 
                 font-family: $--font-primary;
-                font-size: 32px;
+                font-size: $--font-32rem;
                 font-weight: 400;
                 line-height: normal;
 
@@ -72,7 +72,7 @@ $--height-container: 600px;
             width: 520px;
             text-align: center;
 
-            font-size: 32px;
+            font-size: $--font-32rem;
             line-height: 40px;
 
             color: $--clr-white;

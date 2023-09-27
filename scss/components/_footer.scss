@@ -38,7 +38,7 @@
 
             .footer-info {
                 font-family: $--font-secondary;
-                font-size: 16px;
+                font-size: $--font-16rem;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -57,7 +57,7 @@
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
-                    font-size: 1rem;
+                    font-size: $--font-16rem;
                     padding-left: 8px;
 
                     color: $--clr-white;
@@ -74,7 +74,7 @@
 
 .footer-text {
     font-family: $--font-primary;
-    font-size: 32px;
+    font-size: $--font-32rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

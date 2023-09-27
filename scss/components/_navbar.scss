@@ -27,7 +27,7 @@
         height: 60px;
 
         font-weight: 700;
-        font-size: 24px;
+        font-size: $--font-24rem;
         line-height: 30px;
 
         text-decoration: none;
@@ -71,7 +71,7 @@
                 text-decoration: none;
 
                 font-weight: 700;
-                font-size: 20px;
+                font-size: $--font-20rem;
                 line-height: 25px;
 
                 color: $--clr-secondary;

@@ -29,7 +29,7 @@ $--height-container: 700px;
             margin-top: 10%;
 
             font-family: $--font-tertiary;
-            font-size: 48px;
+            font-size: 3rem;
             line-height: 60px;
 
             text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -55,7 +55,7 @@ $--height-container: 700px;
             padding: 40px 200px 0;
 
             font-family: $--font-secondary;
-            font-size: 24px;
+            font-size: $--font-24rem;
             line-height: 33px;
         }
     }

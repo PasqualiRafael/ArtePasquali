@@ -142,11 +142,14 @@ table {
   border-spacing: 0;
 }
 
+html {
+  font-size: 100%;
+}
+
 body header {
   font-family: --font-primary;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
   line-height: 22px;
   width: auto;
   margin: 0 auto;
@@ -189,7 +192,7 @@ Files inside this folder can contain global styles used in the project.
   width: 144px;
   height: 60px;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 30px;
   text-decoration: none;
   text-transform: capitalize;
@@ -223,7 +226,7 @@ Files inside this folder can contain global styles used in the project.
   padding: 10px 0 10px 0;
   text-decoration: none;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 25px;
   color: #211440;
 }
@@ -233,7 +236,7 @@ Files inside this folder can contain global styles used in the project.
 }
 
 .btn {
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 30px;
   text-align: center;
   text-decoration: none;
@@ -341,7 +344,7 @@ Files inside this folder can contain global styles used in the project.
 }
 .container-footer .wrapper-footer .faleconosco .footer-info {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -369,7 +372,7 @@ Files inside this folder can contain global styles used in the project.
 
 .footer-text {
   font-family: "Arvo", serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -419,7 +422,6 @@ Files inside this folder can contain global styles used in the project.
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: auto;
   background-color: #e5e6e9;
 }
 
@@ -429,7 +431,6 @@ Files inside this folder can contain global styles used in the project.
   align-items: center;
   padding-left: 20px;
   width: 1020px;
-  height: auto;
   background-color: #e5e6e9;
 }
 .wrapper-top .welcome {
@@ -437,7 +438,7 @@ Files inside this folder can contain global styles used in the project.
   align-items: center;
   text-align: center;
   font-family: "Great Vibes", cursive;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   line-height: 25px;
   color: #1d1d1d;
@@ -502,9 +503,9 @@ Files inside this folder can contain global styles used in the project.
 .wrapper-mid .left-mid .logo-text {
   width: auto;
   height: auto;
-  padding-top: 20px;
+  padding-top: 1.25rem;
   font-family: "Great Vibes", cursive;
-  font-size: 48px;
+  font-size: 3rem;
   color: #1d1d1d;
 }
 .wrapper-mid .right-mid {
@@ -561,7 +562,7 @@ Files inside this folder can contain global styles used in the project.
   display: flex;
   align-items: center;
   font-family: "Arvo", serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 400;
   line-height: normal;
   color: #092547;
@@ -590,7 +591,7 @@ Files inside this folder can contain global styles used in the project.
 .publi .container-banner .text-publi {
   width: 520px;
   text-align: center;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 40px;
   color: #ffffff;
 }
@@ -647,7 +648,7 @@ Files inside this folder can contain global styles used in the project.
 }
 .container-service .service-tabs .logo-mk-container .logo-container .logo-service .title-logo-card {
   font-family: "Arvo", serif;
-  font-size: 28px;
+  font-size: 1.75rem;
   color: #092547;
   padding: 10px;
   margin: 20px 0 40px 20px;
@@ -696,7 +697,7 @@ Files inside this folder can contain global styles used in the project.
 
 .title-service {
   font-family: "Arvo", serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 49px;
   padding: 10px;
   text-align: center;
@@ -755,12 +756,12 @@ Files inside this folder can contain global styles used in the project.
   grid-row-start: 1;
   grid-row-end: 3;
   font-family: "Arvo", serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #092547;
 }
 .container-grid .item-grid > .title-categ {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   padding-left: 10px;
   text-align: left;
   color: #092547;
@@ -837,7 +838,7 @@ Files inside this folder can contain global styles used in the project.
   padding: 10px;
   margin-top: 10%;
   font-family: "Great Vibes", cursive;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 60px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -856,6 +857,6 @@ Files inside this folder can contain global styles used in the project.
   text-justify: inter-word;
   padding: 40px 200px 0;
   font-family: "Open Sans", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 33px;
 }/*# sourceMappingURL=style.css.map */

@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
 
-    height: auto;
     background-color: $--clr-background;
 }
 
@@ -15,7 +14,6 @@
     padding-left: 20px;
 
     width: 1020px;
-    height: auto;
 
     background-color: $--clr-background;
 
@@ -25,7 +23,7 @@
         text-align: center;
 
         font-family: $--font-tertiary;
-        font-size: 20px;
+        font-size: $--font-20rem;
         font-weight: 400;
         line-height: 25px;
         color: $--clr-black;
@@ -102,10 +100,10 @@
         .logo-text {
             width: auto;
             height: auto;
-            padding-top: 20px;
+            padding-top: $--font-20rem;
 
             font-family: $--font-tertiary;
-            font-size: 48px;
+            font-size: 3rem;
 
             color: $--clr-black;
         }
