@@ -672,6 +672,9 @@ Files inside this folder can contain global styles used in the project.
 .container-service .service-tabs .logo-mk-container .logo-container .logo-service .list-service .service-items .text-inside-card {
   padding-left: 4px;
 }
+.container-service .service-tabs .logo-mk-container .logo-container .logo-service .list-service .service-items .text-inside-card-blue {
+  color: #ffffff;
+}
 .container-service .service-tabs .logo-mk-container .logo-container .btn-container {
   display: flex;
   flex-direction: column;
