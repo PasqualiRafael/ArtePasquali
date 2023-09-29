@@ -36,14 +36,14 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 ## Próximos passos
 
--   :black_square_button: Add index
--   [black_square_button] Add README
+-   [x] Add index
+-   [x] Add README
 -   [ ] Add responsividade para Celulares
 -   [ ] Add responsividade para Tablet
 -   [ ] Add pagina de portifólio
 -   [ ] Add pagina de Resumo profissional
 -   [-] Multi-language Support
-    -   black_square_button Português-br
+    -   [x] Português-br
     -   [ ] Inglês
 
 ---
