@@ -34,6 +34,20 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 ---
 
+## Próximos passos
+
+-   [x] Add index
+-   [x] Add README
+-   [ ] Add responsividade para Celulares
+-   [ ] Add responsividade para Tablet
+-   [ ] Add pagina de portifólio
+-   [ ] Add pagina de Resumo profissional
+-   [-] Multi-language Support
+    -   [x] Português-br
+    -   [ ] Inglês
+
+---
+
 <h2>🦄 Autor</h2>
 
 <table>

@@ -34,6 +34,20 @@ For the development of this website, I used the following technologies:
 
 ---
 
+## Roadmap
+
+-   [x] Add index
+-   [x] Add README
+-   [ ] Add responsive for Mobile
+-   [ ] Add responsive for tablet
+-   [ ] Add portfolio page
+-   [ ] Add resume page
+-   [-] Multi-language Support
+    -   [x] Portuguese-br
+    -   [ ] English
+
+---
+
 <h2>🦄 Author</h2>
 
 <table>
