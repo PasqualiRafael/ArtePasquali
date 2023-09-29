@@ -36,8 +36,8 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 ## Próximos passos
 
--   black_square_button Add index
--   black_square_button Add README
+-   :black_square_button: Add index
+-   [black_square_button] Add README
 -   [ ] Add responsividade para Celulares
 -   [ ] Add responsividade para Tablet
 -   [ ] Add pagina de portifólio
