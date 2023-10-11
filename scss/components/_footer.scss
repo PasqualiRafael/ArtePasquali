@@ -5,7 +5,7 @@
     margin: 0 auto;
 
     width: auto;
-    height: 330px;
+    height: auto;
 
     background-color: $--clr-footer;
 
@@ -14,14 +14,15 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        padding: 2rem 0;
 
         width: 1040px;
-        height: 330px;
+        height: auto;
 
         background-color: $--clr-footer;
 
         .logo-footer {
-            padding-left: 10px;
+            padding-left: 1rem;
         }
 
         .faleconosco {
@@ -30,9 +31,9 @@
             justify-content: flex-start;
 
             width: auto;
-            height: 330px;
+            height: 33rem;
 
-            gap: 27px;
+            gap: 2.7rem;
 
             color: $--clr-white;
 
@@ -49,7 +50,7 @@
                     display: flex;
                     flex-direction: row;
                     align-items: center;
-                    padding: 4px;
+                    padding: 0.4rem;
                 }
 
                 .text-telemail {
@@ -58,7 +59,7 @@
                     font-weight: 400;
                     line-height: normal;
                     font-size: $--font-16rem;
-                    padding-left: 8px;
+                    padding-left: 0.8rem;
 
                     color: $--clr-white;
                     text-decoration: none;
@@ -67,7 +68,7 @@
         }
 
         .google-maps > .map-box {
-            border-radius: 10px;
+            border-radius: 1rem;
         }
     }
 }
@@ -79,7 +80,7 @@
     font-weight: 400;
     line-height: normal;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding-top: 19px;
+    padding-top: 1.9rem;
     color: $--clr-white;
 }
 
@@ -97,7 +98,7 @@
     .wrapper-copyright small {
         font-family: $--font-secondary;
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
 
     .wrapper-copyright {
@@ -106,20 +107,20 @@
         align-items: center;
 
         width: 1040px;
-        height: 50px;
+        height: 5rem;
 
         background-color: $--clr-secondary;
         color: $--clr-white;
 
         .footer-social a {
             text-align: center;
-            padding-left: 5px;
-            padding-right: 5px;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
         }
     }
 
     .wrapper-copyright small {
-        padding-left: 5px;
+        padding-left: 0.5rem;
         text-align: center;
     }
 }

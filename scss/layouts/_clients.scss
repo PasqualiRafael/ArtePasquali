@@ -1,24 +1,23 @@
-@include section-default(rgb(168, 161, 161), 400px);
-
-.clients {
+.container-clients {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 
     width: auto;
-    height: 600px;
+    height: auto;
 
     background-color: $--clr-primary;
 
-    .container-clients {
+    .wrapper-clients {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 15rem 0;
 
         width: 1040px;
-        height: 400px;
+        height: auto;
 
         background-color: $--clr-primary;
     }

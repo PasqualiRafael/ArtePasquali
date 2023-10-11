@@ -11,10 +11,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 10px;
+    gap: 1rem;
 
     width: 1040px;
-    height: 60px;
+    height: 6rem;
 
     background-color: $--clr-secondary;
 
@@ -23,12 +23,12 @@
         justify-content: center;
         align-items: center;
 
-        width: 144px;
-        height: 60px;
+        width: 14.4rem;
+        height: 6rem;
 
         font-weight: 700;
         font-size: $--font-24rem;
-        line-height: 30px;
+        line-height: 3rem;
 
         text-decoration: none;
         text-transform: capitalize;
@@ -56,23 +56,23 @@
             display: none;
             position: absolute;
 
-            min-width: 200px;
+            min-width: 20rem;
             height: auto;
 
             background-color: $--clr-white;
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
             z-index: 1;
 
             a {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding: 10px 0 10px 0;
+                padding: 1rem 0 1rem 0;
                 text-decoration: none;
 
                 font-weight: 700;
                 font-size: $--font-20rem;
-                line-height: 25px;
+                line-height: 2.5rem;
 
                 color: $--clr-secondary;
 
