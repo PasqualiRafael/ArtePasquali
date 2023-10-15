@@ -6,7 +6,7 @@
   💻<br>Portfolio - Pasquali (Under Construction)
 </h1>
 
-![Final project result](dist/img/preview/preview.png)
+![Final project result](assets/img/preview/preview.png)
 
 <h4 align="center"><a href="https://www.artepasquali.com">Click to visit the project</a></h4>
 
