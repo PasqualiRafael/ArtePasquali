@@ -47,3 +47,31 @@
     right: 2.5rem;
     z-index: 1000;
 }
+
+.backup {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 3rem;
+    z-index: 999;
+
+    a {
+        bottom: 0;
+        text-align: center;
+        cursor: pointer;
+
+        padding: 0.4rem 1.6rem 0.2rem;
+        border-radius: 1rem 1rem 0 0;
+        color: $--clr-white;
+        background-color: $--clr-tertiary;
+        svg {
+            bottom: -2rem;
+            min-width: 2rem;
+            fill: white;
+        }
+
+        &:hover {
+            background-color: $--clr-btn-hover;
+        }
+    }
+}

@@ -144,6 +144,7 @@ table {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body header {
@@ -278,6 +279,31 @@ Files inside this folder can contain global styles used in the project.
   z-index: 1000;
 }
 
+.backup {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 3rem;
+  z-index: 999;
+}
+.backup a {
+  bottom: 0;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.4rem 1.6rem 0.2rem;
+  border-radius: 1rem 1rem 0 0;
+  color: #ffffff;
+  background-color: #602ed2;
+}
+.backup a svg {
+  bottom: -2rem;
+  min-width: 2rem;
+  fill: white;
+}
+.backup a:hover {
+  background-color: rgba(147, 60, 216, 0.89);
+}
+
 .slider {
   display: flex;
   align-items: center;
@@ -297,12 +323,12 @@ Files inside this folder can contain global styles used in the project.
 .slider .brands {
   display: flex;
   flex-direction: row;
-  width: 248rem;
+  width: 320rem;
   list-style: none;
-  animation: slideLeft 14s linear infinite;
+  animation: slideLeft 35s linear infinite;
 }
 .slider .brands .brand-logo {
-  width: 15.5rem;
+  width: 20rem;
   text-align: center;
   margin-left: 2rem;
 }
