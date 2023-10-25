@@ -10,7 +10,7 @@ $--clr-primary: #ffffff;
 $--clr-secondary: #211440;
 $--clr-tertiary: #602ed2;
 $--clr-font: #092547;
-$--clr-font-tabs: #848199;
+$--clr-font-tabs: #41404b;
 $--clr-alternative-1: #3e2f60;
 $--clr-alternative-2: #5a4a80;
 $--clr-background: #e5e6e9;
@@ -30,3 +30,31 @@ $--clr-test2-bg: gray;
 
 //local variables
 $--phone: "16-99141-1680";
+
+//responsive sizes
+
+//font size em
+$--font-12em: 1.2em;
+$--font-14em: 1.4em;
+$--font-16em: 1.6em;
+$--font-18em: 1.8em;
+$--font-20em: 2em;
+$--font-22em: 2.2em;
+$--font-24em: 2.4em;
+$--font-26em: 2.6em;
+$--font-28em: 2.8em;
+
+//font size rem
+$--font-12rem: 1.2rem;
+$--font-14rem: 1.4rem;
+$--font-16rem: 1.6rem;
+$--font-18rem: 1.8rem;
+$--font-20rem: 2rem;
+$--font-22rem: 2.2rem;
+$--font-24rem: 2.4rem;
+$--font-26rem: 2.6rem;
+$--font-28rem: 2.8rem;
+$--font-30rem: 3rem;
+$--font-32rem: 3.2rem;
+$--font-34rem: 3.4rem;
+$--font-36rem: 3.6rem;

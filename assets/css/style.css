@@ -703,7 +703,7 @@ Files inside this folder can contain global styles used in the project.
   gap: 0.4rem;
   width: auto;
   font-size: 1.6rem;
-  color: #848199;
+  color: #41404b;
 }
 .container-service .service-tabs .logo-mk-container .logo-container .logo-service .list-service .service-items {
   display: flex;
