@@ -205,6 +205,7 @@ Files inside this folder can contain global styles used in the project.
   text-decoration: none;
   text-transform: capitalize;
   color: #ffffff;
+  cursor: pointer;
 }
 .nav-list .navegation:hover, .nav-list .navegation:active {
   background-color: #602ed2;
