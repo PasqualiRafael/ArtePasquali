@@ -72,6 +72,9 @@
             color: $--clr-white;
 
             font-family: $--font-secondary;
+            &:hover {
+                background-color: $--clr-btn-hover;
+            }
         }
     }
 }

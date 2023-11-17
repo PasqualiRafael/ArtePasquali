@@ -1,6 +1,11 @@
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
 html {
     font-size: 62.5%;
-    scroll-behavior: smooth;
     h1,
     h2,
     h3,

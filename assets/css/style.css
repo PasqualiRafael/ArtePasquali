@@ -142,9 +142,13 @@ table {
   border-spacing: 0;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
 }
 html h1,
 html h2,
@@ -513,6 +517,9 @@ Files inside this folder can contain global styles used in the project.
   background: #602ed2;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
+}
+.wrapper-top .top-tools .orcamento:hover {
+  background-color: rgba(147, 60, 216, 0.89);
 }
 
 .mid {
